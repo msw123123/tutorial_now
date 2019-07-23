@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Nav from '../components/nav'
 
+
 const Home = () => (
   <div>
     <Head>
@@ -30,10 +31,10 @@ const Home = () => (
             <p>Find other example boilerplates on the Next.js GitHub</p>
           </a>
         </Link>
-        <Link href='https://github.com/zeit/next.js'>
+        <Link href='/introduce/introduce_outline' >
           <a className='card'>
-            <h3>Create Next App &rarr;</h3>
-            <p>Was this tool helpful? Let us know how we can improve it!</p>
+            <h3>나우 개발 발표 &rarr;</h3>
+            <p>과연 나우는 무엇일까? 한 번 확인해보시죠</p>
           </a>
         </Link>
       </div>
