@@ -13,14 +13,19 @@ class Tutorial extends React.Component {
   //   console.log(data)
   // })
 
-  static async getInitialProps ({req}) {
-    const response = await Axios.get('/api/date');
-    return {
-        data: response.data
-    }
-  }
+  // static async getInitialProps ({req}) {
+
+  //     return {
+  //       data :1
+  //     }
+  // }
 
   render() {
+    Axios.get('/apis/tft-init').then(function (response){
+      const data = response.data
+      console.log(data)
+    });
+
     const { users } = this.props;
     console.log(users)
       return (
@@ -29,7 +34,6 @@ class Tutorial extends React.Component {
           <title>NOW 튜토리얼</title>
         </Head>
 
-        { this }
         <div className={css.head}>
           <h1 className={css.title}>NOW 튜토리얼</h1>
 
