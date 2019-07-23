@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import Nav from '../components/nav'
-import Axios from 'axios';
 
 const Home = () => (
   <div>
@@ -88,6 +87,5 @@ const Home = () => (
     `}</style>
   </div>
 )
-var a = Axios.get('/api/date')
-console.log(a)
+
 export default Home

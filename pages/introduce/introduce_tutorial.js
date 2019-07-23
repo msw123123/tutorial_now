@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import css from "../../static/css/style.css"
+import Axios from 'axios';
 
 const Home = () => (
   <div>
@@ -9,7 +10,7 @@ const Home = () => (
       <title>NOW 튜토리얼</title>
     </Head>
 
-
+    { this }
     <div className={css.head}>
       <h1 className={css.title}>NOW 튜토리얼</h1>
 
@@ -31,5 +32,12 @@ const Home = () => (
     `}</style>
   </div>
 )
+
+var data = {}
+Axios.get('/api/date').then(function (response){
+  data = response.data
+  console.log(data)
+})
+
 
 export default Home
