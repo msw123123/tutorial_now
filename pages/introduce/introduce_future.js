@@ -11,7 +11,7 @@ const Home = () => (
 
 
     <div className={css.head}>
-      <h1 className={css.title}>NOW 란?</h1>
+      <h1 className={css.title}>서버리스 배포 자동화의 미래</h1>
 
       <div className={css.content}>
        <p>서버리스 배포 플랫폼</p>
