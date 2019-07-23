@@ -26,15 +26,12 @@ class Tutorial extends React.Component {
       console.log(data)
     });
 
-
-    const { users } = this.props;
-    console.log(users)
       return (
         <div>
         <Head>
           <title>NOW 튜토리얼</title>
         </Head>
-
+        { data }
         <div className={css.head}>
           <h1 className={css.title}>NOW 튜토리얼</h1>
 
