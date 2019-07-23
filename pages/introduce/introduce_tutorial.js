@@ -21,7 +21,7 @@ class Tutorial extends React.Component {
   // }
 
   render() {
-    Axios.get('/apis/tft-init').then(function (response){
+    Axios.get('/api/date').then(function (response){
       const data = response.data
       console.log(data)
     });
