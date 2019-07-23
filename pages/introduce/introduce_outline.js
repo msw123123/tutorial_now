@@ -26,7 +26,10 @@ const Introduce = () => (
             <h3><Link href='introduce_tutorial'>2. NOW 튜토리얼</Link></h3>
           </ol>
           <ol>
-            <h3><Link href='introduce_advantage'>3. NOW 장단점</Link></h3>
+            <h3><Link href='introduce_etc'>3. NOW 그 외 기능들</Link></h3>
+          </ol>
+          <ol>
+            <h3><Link href='introduce_future'>4. 서버리스 배포 자동화의 미래</Link></h3>
           </ol>
         </ul>
       </div>
