@@ -11,10 +11,15 @@ const Home = () => (
 
 
     <div className={css.head}>
-      <h1 className={css.title}>서버리스 배포 자동화의 미래</h1>
+      <h1 className={css.title}>문제점(모든 serverless function flatform에 대해서)</h1>
 
       <div className={css.content}>
-       <p>서버리스 배포 플랫폼</p>
+       <p>Lambda function cold start</p>
+       <p>제한된 사용가능 메모리</p>
+       <p>제한된 람다 실행시간(now의 경우 5분)</p>
+       <p>제한된 람다 bundle 용량</p>
+       <p>제한된 람다 요청 바디 용량</p>
+       <p></p>
       </div>
     </div>
 
