@@ -28,6 +28,7 @@ const Introduce = () => (
           <ol>
             <h3><Link href='introduce_etc'>3. NOW 그 외 기능들</Link></h3>
           </ol>
+
           <ol>
             <h3><Link href='introduce_future'>4. 문제점(모든 serverless function flatform에 대해서)</Link></h3>
           </ol>
